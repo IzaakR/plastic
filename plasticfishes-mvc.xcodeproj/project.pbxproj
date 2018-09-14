@@ -79,9 +79,10 @@
 		A9CFAC6F214C6CC10034214A /* plasticfishes-mvc */ = {
 			isa = PBXGroup;
 			children = (
+				A9CFAC92214C70F40034214A /* models */,
+				A9CFAC94214C71150034214A /* views */,
+				A9CFAC93214C71030034214A /* controllers */,
 				A9CFAC70214C6CC10034214A /* AppDelegate.swift */,
-				A9CFAC72214C6CC10034214A /* MasterViewController.swift */,
-				A9CFAC74214C6CC10034214A /* DetailViewController.swift */,
 				A9CFAC76214C6CC10034214A /* Main.storyboard */,
 				A9CFAC79214C6CC20034214A /* Assets.xcassets */,
 				A9CFAC7B214C6CC20034214A /* LaunchScreen.storyboard */,
@@ -97,6 +98,29 @@
 				A9CFAC89214C6CC20034214A /* Info.plist */,
 			);
 			path = "plasticfishes-mvcTests";
+			sourceTree = "<group>";
+		};
+		A9CFAC92214C70F40034214A /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		A9CFAC93214C71030034214A /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A9CFAC72214C6CC10034214A /* MasterViewController.swift */,
+				A9CFAC74214C6CC10034214A /* DetailViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		A9CFAC94214C71150034214A /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
